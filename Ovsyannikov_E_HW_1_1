@@ -1,0 +1,9 @@
+durations = int(input("Преобразование времни: "))
+days = durations // 86400
+data_hours = durations % 3600
+hour = data_hours // 3600
+data_minytes = data_hours % 3600
+minutes = data_minytes // 60
+seconds = data_minytes % 60
+
+print(days, "Деней", hour, "Часов", minutes, "Минут", seconds, "Секунд")
